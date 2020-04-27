@@ -1,0 +1,30 @@
+2020-04-27 19:20:02.157  INFO 15240 --- [main] c.example.javatest.JavaTestApplication   : Starting JavaTestApplication v0.0.1-SNAPSHOT on DESKTOP-A2MUQ7K with PID 15240 (D:\sujeet\Test-Projects\java-test-webapp\target\javatest-0.0.1-SNAPSHOT.jar started by DELL in D:\sujeet\Test-Projects\java-test-webapp\target)
+2020-04-27 19:20:02.162  INFO 15240 --- [main] c.example.javatest.JavaTestApplication   : The following profiles are active: local
+2020-04-27 19:20:03.738  INFO 15240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-27 19:20:03.870  INFO 15240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 3 repository interfaces.
+2020-04-27 19:20:04.511  INFO 15240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-27 19:20:05.340  INFO 15240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-27 19:20:05.372  INFO 15240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-27 19:20:05.373  INFO 15240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-04-27 19:20:05.829  INFO 15240 --- [main] o.a.c.c.C.[.[localhost].[/javatest]      : Initializing Spring embedded WebApplicationContext
+2020-04-27 19:20:05.830  INFO 15240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3558 ms
+2020-04-27 19:20:06.150  INFO 15240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 19:20:06.468  INFO 15240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-04-27 19:20:06.694  INFO 15240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 19:20:06.850  INFO 15240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-27 19:20:06.858  WARN 15240 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-27 19:20:07.108  INFO 15240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-27 19:20:07.135  INFO 15240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-27 19:20:08.226  INFO 15240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 19:20:08.237  INFO 15240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 19:20:09.586  WARN 15240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-27 19:20:09.861  INFO 15240 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-27 19:20:10.067  INFO 15240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-27 19:20:10.754  INFO 15240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-27 19:20:10.798  INFO 15240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-27 19:20:10.873  INFO 15240 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-27 19:20:11.172  INFO 15240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/javatest'
+2020-04-27 19:20:11.176  INFO 15240 --- [main] c.example.javatest.JavaTestApplication   : Started JavaTestApplication in 9.991 seconds (JVM running for 10.781)
+2020-04-27 19:20:19.495  INFO 15240 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/javatest]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 19:20:19.496  INFO 15240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-27 19:20:19.527  INFO 15240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
